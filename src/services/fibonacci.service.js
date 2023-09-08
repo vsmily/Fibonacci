@@ -12,7 +12,6 @@ export const fibonacciSeq = ( seq )=>{
         const next  = fibo[ i ] + fibo[ i - 1 ] ;
         fibo.push( next );
     }
-    console.log(fibo)
     const result = fibo[ seq ];
     return result;
 
